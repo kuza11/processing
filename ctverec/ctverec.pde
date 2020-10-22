@@ -7,10 +7,11 @@ void setup(){
   stroke(250, 250, 250);
   strokeWeight(1);
   noFill();
-  rect(x/2-10, y/2-10,size , size);
+  rect(x/2-size/2, y/2-size/2,size , size);
   ellipse(x/2 ,y/2 , sqrt(size*size+size*size), sqrt(size*size+size*size));
   
 }
 void draw(){
 
 }
+// kdyz se najede do ctverce zmodra
